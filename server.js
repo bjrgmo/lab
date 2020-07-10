@@ -7,6 +7,9 @@ app.listen(port, function () {
     console.log("Server is running on " + port + " port");
 });
 
-app.get('/', function (req, res) {
+
+// Hva skjer hvis jeg prøver å nå noe som det ikke er routet noe til?
+// Luddis nevner jeg burde ha wild card
+app.get('/*', function (req, res) {
     res.send('<p>Hello Motherfucker</p>');
 });
