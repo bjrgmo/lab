@@ -2,7 +2,7 @@
   "name": "lab",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon ./server/server.js",
     "start-prod": "nodemon ./server/server.js",
