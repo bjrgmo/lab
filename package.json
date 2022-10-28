@@ -1,27 +1,13 @@
 {
-  "name": "lab",
+  "name": "docker_web_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon ./server/server.js",
-    "start-prod": "nodemon ./server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bjrgmo/lab.git"
-  },
-  "author": "petter",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bjrgmo/lab/issues"
-  },
-  "homepage": "https://github.com/bjrgmo/lab#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.4",
-    "path": "^0.12.7"
+    "express": "^4.16.1"
   }
 }
